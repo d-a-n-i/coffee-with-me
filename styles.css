@@ -141,17 +141,18 @@ a {
 
 .hero-brand {
   font-family: "Secular One", "Heebo", sans-serif;
-  font-size: clamp(2.4rem, 8vw, 4.4rem);
-  line-height: 1;
-  margin: 0 0 0.75rem;
-  letter-spacing: 0.01em;
+  font-size: clamp(1.85rem, 5.5vw, 3.4rem);
+  line-height: 1.05;
+  margin: 0 0 0.55rem;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
   text-shadow: 0 2px 24px rgba(0, 0, 0, 0.35);
   animation: rise 0.9s var(--ease) both;
 }
 
 .hero h1 {
   font-family: "Secular One", "Heebo", sans-serif;
-  font-size: clamp(1.45rem, 4.2vw, 2.2rem);
+  font-size: clamp(1.35rem, 3.6vw, 1.85rem);
   font-weight: 400;
   margin: 0 0 0.85rem;
   color: rgba(255, 255, 255, 0.95);
@@ -453,10 +454,11 @@ blockquote p {
 }
 
 .contact-panel .hero-brand {
-  font-size: clamp(2rem, 6vw, 3rem);
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
   color: var(--espresso);
   text-shadow: none;
   animation: none;
+  white-space: normal;
 }
 
 .contact-panel h2 {
