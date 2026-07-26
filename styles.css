@@ -325,13 +325,33 @@ h2 {
   margin: 0 0 1rem;
 }
 
-.text-link {
-  display: inline-block;
-  margin-top: 0.5rem;
-  font-weight: 600;
-  color: var(--leaf);
-  border-bottom: 1px solid rgba(63, 90, 72, 0.4);
-  padding-bottom: 0.1rem;
+.ig-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin-top: 0.75rem;
+  border-radius: 12px;
+  color: #fff;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  transition: transform 0.25s var(--ease), opacity 0.25s ease;
+}
+
+.ig-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.ig-link svg {
+  display: block;
+}
+
+.foot .ig-link {
+  width: 36px;
+  height: 36px;
+  margin-top: 0;
+  vertical-align: middle;
 }
 
 .craft {
@@ -430,13 +450,19 @@ blockquote p {
 
 .fb-shots {
   display: grid;
-  gap: 0.75rem;
+  gap: 1rem;
+  align-items: start;
+  justify-items: center;
 }
 
 .fb-shots img {
-  width: 100%;
-  border-radius: 4px;
+  width: auto;
+  max-width: min(100%, 360px);
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
   box-shadow: 0 8px 28px rgba(28, 20, 16, 0.08);
+  background: #fff;
 }
 
 .contact {
@@ -475,7 +501,7 @@ blockquote p {
   animation: none;
 }
 
-.contact-panel .ig {
+.contact-panel .ig-link {
   margin-top: 1.5rem;
 }
 
@@ -494,6 +520,18 @@ blockquote p {
 .foot a {
   font-weight: 600;
   color: var(--espresso);
+}
+
+.foot-links {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.foot-links .ig-link {
+  color: #fff;
 }
 
 .float-actions {
@@ -615,7 +653,8 @@ blockquote p {
   }
 
   .fb-shots {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 360px));
+    justify-content: center;
   }
 
   .quotes {
