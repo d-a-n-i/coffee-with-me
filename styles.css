@@ -534,6 +534,43 @@ blockquote p {
   color: #fff;
 }
 
+.site-qr {
+  margin: 1.75rem auto 0;
+  max-width: 11rem;
+}
+
+.site-qr-card {
+  display: grid;
+  justify-items: center;
+  gap: 0.55rem;
+  padding: 0.85rem 0.9rem 0.75rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.42);
+  border: 1px solid rgba(42, 28, 20, 0.08);
+  color: var(--ink-soft);
+  transition: transform 0.25s var(--ease), border-color 0.25s ease, background 0.25s ease;
+}
+
+.site-qr-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(154, 98, 48, 0.28);
+  background: rgba(255, 255, 255, 0.62);
+}
+
+.site-qr-card img {
+  width: 104px;
+  height: 104px;
+  border-radius: 8px;
+}
+
+.site-qr-url {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--espresso);
+  opacity: 0.78;
+}
+
 .float-actions {
   position: fixed;
   inset-inline-end: 1rem;
