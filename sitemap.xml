@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://diklacoffeeguide.com/</loc>
-    <lastmod>2026-08-02</lastmod>
+    <lastmod>2026-10-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://diklacoffeeguide.com/assets/web/og-cover.jpg</image:loc>
+      <image:title>Coffee With Me — סיורי קפה בתל אביב וביפו עם דיקלה דנינו</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://diklacoffeeguide.com/assets/web/gallery-4.jpg</image:loc>
+      <image:title>כוס קפה עם לאטה ארט בבית קלייה — סיור קפה בתל אביב</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://diklacoffeeguide.com/assets/web/gallery-3.jpg</image:loc>
+      <image:title>דיקלה מספרת לקבוצה מול בניין אבן ביפו</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://diklacoffeeguide.com/assets/web/gallery-6.jpg</image:loc>
+      <image:title>דיקלה דנינו עם משתתפי סיור קפה בתל אביב</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://diklacoffeeguide.com/assets/web/hero.jpg</image:loc>
+      <image:title>מגשי מאפים טריים בטעימה בסיור הקפה</image:title>
+    </image:image>
   </url>
 </urlset>

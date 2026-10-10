@@ -1,0 +1,15 @@
+{
+  "name": "Coffee With Me — סיורי קפה עם דיקלה דנינו",
+  "short_name": "Coffee With Me",
+  "description": "סיור קפה בתל אביב וביפו עם דיקלה דנינו",
+  "lang": "he",
+  "dir": "rtl",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#f2efe9",
+  "theme_color": "#f2efe9",
+  "icons": [
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
